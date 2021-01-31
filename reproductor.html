@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reproductor de Medios con JavaScript</title>
+	<link rel="stylesheet" href="./reproductor.css">
+	<script src="./reproductor.js"></script>
+</head>
+<body bgcolor="#24DA98">
+<! TITULO ––> 
+<p>
+    <center>
+        <h1>
+            <b>REPRODUCTOR DE MEDIOS</b>
+        </h1>
+    </center>
+</p>
+<! –– REPRODUCTOR ––> 
+	<section id="reproductor"> 
+		<video id="medio" width="720" height="400">
+			<source src="./Video.mp4">
+		</video>
+		<nav>
+			<div id="botones">
+				<input type="button" id="reproducir" value=">">
+				<input type="button" id="silenciar" value="silencio">
+			</div>
+			<div id="barra">
+				<div id="progreso"></div>
+			</div>
+			<div id="control">
+				<input type="range" id="volumen" min="0" max="1" step="0.1" value="0.6">
+			</div>
+			<div class="recuperar"></div>
+		</nav>
+	</section>
+<! ––DESCRIPCION DEL VIDEO ––> 
+<p>
+    <center>
+     Esta es el area donde se puede agregar una descripcion de lo que se esta viendo<br>
+     algunos ejemplo seria para cursos,presentaciones o introducciones,como el siguiente<br>
+            En este video se ve la pelicula venom ademas que se muestran otras peliculas<br>
+    </center>
+</p>
+<! –– MENU DE VIDEOS––> 
+</body>
+</html>
